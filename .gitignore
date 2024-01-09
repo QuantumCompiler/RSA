@@ -2,4 +2,4 @@
 .DS_Store
 
 # Py Cache
-__pycache__/
+**/__pycache__/
