@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['main.py'],
+    ['icon=Images\\Icon.ico', 'main.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -21,7 +21,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='RSA',
+    name='Icon',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -34,10 +34,4 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-)
-app = BUNDLE(
-    exe,
-    name='RSA.app',
-    icon='Images/Icon.png',
-    bundle_identifier=None,
 )
