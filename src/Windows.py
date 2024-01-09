@@ -210,7 +210,7 @@ class MainWindow(QMainWindow):
         if (encodenValueText == "" and encodePublicKeyText == ""):
             # Generate random prime numbers
             firstSeed = random.randrange(100,1000)
-            secondSeed = random.randrange(1,10)*firstSeed
+            secondSeed = random.randrange(2,10)*firstSeed
             firstPrime = GeneratePrime(firstSeed,secondSeed)
             secondPrime = GeneratePrime(10*firstSeed,10*secondSeed)
             # Calculate the public and private keys using the Second Tool Set module (STS)
