@@ -234,7 +234,14 @@ class MainWindow(QMainWindow):
 
 
 # Run - Runs the program
-
+# Input:
+#   This function does not have any inputs
+# Algorithm:
+#   * Create a QApplication instance
+#   * Create a window and show it
+#   * Kill the application upon closing
+# Output:
+#   This application does not return a value
 def Run():
     app = QApplication(sys.argv)
     window = MainWindow()
