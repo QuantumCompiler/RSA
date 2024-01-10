@@ -42,7 +42,7 @@ This repository includes files required to create a program that models the proc
 
 ### Version 1.0.0
 
-Version 1.0.0 of RSA was built with Python and the PyQt framework. This application is available for download as both a Windows .exe file and MacOS .app file.
+Version 1.0.0 of RSA was built with Python and the PyQt framework. This application is available for download as both a Windows .exe file and MacOS .app file. The files for this release can be found [here](https://github.com/QuantumCompiler/RSA/releases/tag/v1.0.0).
 
 #### Version 1.0.0 Important Notes
 
